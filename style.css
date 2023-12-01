@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  header {
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: -1px -4px 20px 20px rgb(255, 60, 0);
+    display: flex;
+    justify-content: space-between;
+  }
+h1 {
+  position: relative;
+  left: 30px;
+}
+  #carrito-btn {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #20428d;
+    color: rgb(243, 242, 242);
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  #carrito-btn:hover,
+  #carrito-btn:active {
+  background-color: #7c1212;
+}
+
+.img-compras{
+    width: 4.35rem;
+    height: 4.35rem;
+    margin-right: 0.5rem;
+}
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .guitarra {
+    border: 1px solid #b9b9b9;
+    padding: 10px;
+  }
+
+  .guitarra img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.oculto {
+    display: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #carrito {
+    border: 1px solid #ddd;
+    padding: 10px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(212, 200, 200);
+   
+   
+
+  }
+  
+  #cantidad-carrito {
+    position: relative;
+    right: 10px;
+    top: 25px;
+    background-color: #070be7;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+  }
+  
+  #carrito-lista li {
+  margin-bottom: 15px; 
+  
+}
+#carrito-lista button {
+    position:relative ;
+    left: 5px;
+  }
+  

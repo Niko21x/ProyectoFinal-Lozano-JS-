@@ -1,0 +1,7 @@
+[
+    { "id": 1, "marca": "Fender", "modelo": "Stratocaster", "precio": 1000, "imagen": "./img/fender.png" },
+    { "id": 2, "marca": "Gibson", "modelo": "Les Paul", "precio": 1500, "imagen": "./img/gibson.png" },
+    { "id": 3, "marca": "Ibanez", "modelo": "RG550", "precio": 800, "imagen":"./img/ibanez.png" },
+    { "id": 4, "marca": "ESP", "modelo": "EC-1000", "precio": 1200, "imagen":"./img/esp.png" }
+
+  ]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Guitarras</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:,">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Tienda de Guitarras Eléctricas</h1>
+    <button id="carrito-btn"><img src="./img/cart.png" alt="carrito de compras" class="img-compras"> <span id="cantidad-carrito">0</span></button>
+  </header>
+
+  <main>
+    <div class="container" id="guitarras-lista"></div>
+
+    <div id="carrito" class="oculto">
+      <h2>Carrito de Compras</h2>
+      <ul id="carrito-lista"></ul>
+      <p>Total: $<span id="carrito-total">0</span></p>
+      <button id="cerrar-carrito-btn">Cerrar Carrito</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Derechos reservados 2023</p>
+  </footer>
+
+  <script src="App.js"></script>
+</body>
+</html>
